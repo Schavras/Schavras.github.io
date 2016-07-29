@@ -29,7 +29,9 @@ $(window).scroll(function() {
 $( document ).ready(function() {
     var width = $(window).width();
     if(width < 767){
-      $( '.case-studie').after('<div class="clear"> </div>');
+      $( '.case-studie').after('<div class="clear case-studie-clear"> </div>');
+    }else{
+      $( ".case-studie-clear" ).remove();
     }
    
 });

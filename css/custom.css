@@ -98,7 +98,16 @@ nav a{
 	margin: 0px;
 }
 
+#case-studies p{
+	text-align: center;
+}
+
+#case-studies a{
+	margin: 0px auto;
+}
+
 #all-case-studies {
+	visibility: hidden;
 	text-decoration: none;
 	color: rgb(51, 51, 51);
 	display: block;
