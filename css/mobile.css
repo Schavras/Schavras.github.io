@@ -1,0 +1,61 @@
+@media only screen and (max-width: 767px) {
+   body{
+   		min-height: 100%;
+   }
+
+    #default-nav  { display: none; }
+  	#drop-down-nav{ 
+  		display: inline-block; 
+		width: 100%;
+
+  	}
+
+	#drop-down-nav button{
+		width: 100%;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	#drop-down-nav ul li{
+		width: 100%;
+		padding: 10px;
+		border-bottom: 1px solid #eee;
+	}
+
+	.container-fluid{
+		width: 100%;
+		margin: 0px;
+	}
+
+	#back-to-top{
+		position: fixed;
+		left: 0%;
+		top: 90%;
+		height: 10%;
+		background-color: #647dbc;
+		padding: 5% 0px;
+		border-radius: 0px;
+		width: 100%;
+		text-align: center;
+		transition: visibility 0.5s, opacity 0.5s linear;
+		vertical-align: middle;
+		
+	}
+
+	#case-studies img {
+	    width: 40%;
+	    margin: 10px 30%;
+	}
+
+	#all-case-studies {
+		width: 100%;
+	}
+
+	#cont-info{
+		text-align: center;
+	}
+
+	body{
+		margin-bottom: 10%;
+	}
+}
