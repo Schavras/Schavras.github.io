@@ -1,0 +1,56 @@
+@import "base";
+
+#philosophy p{
+	text-align: justify;
+}
+
+
+#case-studies{
+	img{
+		width: 70%;
+		margin: 0px 15%;
+	}
+
+	h3, h4{
+		text-align: center;
+		margin: 0px;
+	}
+
+	p{
+		text-align: center;
+	}
+
+	a{
+		margin: 0px auto;
+	}
+}
+
+#all-case-studies {
+	visibility: hidden;
+	text-decoration: none;
+	color: rgb(51, 51, 51);
+	display: block;
+	padding: 3%;
+	background-color: rgb(209, 209, 209);
+	width: 40%;
+	margin: 30px auto 0px;
+	border-radius: 30px;
+	
+	h4{
+		text-align: center;
+	}										
+}
+
+#contact{
+	form {
+		textarea{
+			min-width: 100%;
+			max-width: 100%;
+
+			min-height: 100px;
+			max-height: 100px;
+
+			resize:none;
+		}
+	}
+}
