@@ -24,6 +24,9 @@ body{
 	font-family: $font;
 }
 
+#drop-down-nav{ 
+	display: none; 
+}
 .clear{
 	clear: both;
 }
@@ -59,6 +62,12 @@ header{
 	    line-height: 0.9;
 	    color: $light-gray;
 	}
+
+}
+
+.navbar-default{
+	margin-top: 5px;
+	border-radius: 50px;
 
 }
 
